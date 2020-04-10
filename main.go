@@ -7,7 +7,7 @@ import (
 )
 
 const (
-	listenAddr = ":8080"
+	listenAddr = ":8000"
 )
 
 func health(w http.ResponseWriter, r *http.Request) {
